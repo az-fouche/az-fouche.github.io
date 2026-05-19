@@ -1,0 +1,42 @@
+---
+---
+@import "minima";
+
+.u-email {
+  font-size: 0.65em;
+  word-break: break-all;
+}
+
+.site-footer {
+  .footer-col-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-unit;
+    margin-left: 0;
+  }
+  .footer-col-left {
+    flex: 1 1 0;
+    min-width: 0;
+    text-align: left;
+  }
+  .footer-col-right {
+    flex: 1 1 0;
+    min-width: 0;
+    text-align: right;
+  }
+  .footer-copyright {
+    margin-top: $spacing-unit / 2;
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+}
+
+@media screen and (max-width: $on-palm) {
+  .site-footer {
+    .footer-col-left,
+    .footer-col-right {
+      width: 100%;
+      flex: 1 1 100%;
+    }
+  }
+}

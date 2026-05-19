@@ -1,13 +1,20 @@
-title: Aziz Fouché
-email: aziz.fouche@scientalab.com
+title: Aziz's small blog
+email: f"{fname.lower()}.{lname.lower()}@gmail.com"
 author: Aziz Fouché
 description: >-
-  Personal blog and notes by Aziz Fouché.
+  Personal blog, notes, and thoughts.
 baseurl: ""
 url: "https://az-fouche.github.io"
 github_username: az-fouche
+linkedin_username: aziz-fouche
+scholar_url: https://scholar.google.fr/citations?user=Am0OkmkAAAAJ
 
 theme: minima
+header_pages:
+  - resume.md
+  - posts.md
+  - about.md
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -19,8 +26,6 @@ timezone: Europe/Paris
 
 minima:
   date_format: "%Y-%m-%d"
-  social_links:
-    github: az-fouche
 
 exclude:
   - Gemfile
