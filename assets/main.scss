@@ -7,6 +7,28 @@
   word-break: break-all;
 }
 
+.footnotes {
+  font-size: 0.8em;
+  line-height: 1.35;
+
+  ol {
+    padding-left: 1.25em;
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 0.25em;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a.reversefootnote {
+    display: none;
+  }
+}
+
 .site-footer {
   .footer-col-wrapper {
     display: flex;
