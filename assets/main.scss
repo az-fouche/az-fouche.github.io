@@ -3,11 +3,20 @@
 @import "minima";
 
 .post-content h2 {
-  font-size: 1.25em;
+  font-size: 1.35em;
   font-weight: 500;
 
   @media screen and (max-width: 800px) {
     font-size: 1.15em;
+  }
+}
+
+.post-content h3 {
+  font-size: 1.1em;
+  font-weight: 500;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.05em;
   }
 }
 
@@ -26,6 +35,49 @@
 .u-email {
   font-size: 0.65em;
   overflow-wrap: anywhere;
+}
+
+.resume-pdf {
+  float: right;
+  margin-top: -3.2em;
+  font-size: 0.9em;
+
+  @media screen and (max-width: 600px) {
+    float: none;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
+
+.resume-item {
+  border-left: 3px solid $grey-color-light;
+  padding-left: 1em;
+  margin-bottom: 1.5em;
+
+  h3 {
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0.3em;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    padding-left: 1.25em;
+    margin-bottom: 0;
+    color: $grey-color-dark;
+  }
 }
 
 .footnotes {
