@@ -1,5 +1,5 @@
 title: Aziz's small blog
-email: f"{fname.lower()}.{lname.lower()}@gmail.com"
+email: f"{fname.lower()}.{lname.lower()}[at][google-mail][dot]com"
 author: Aziz Fouché
 description: >-
   Personal blog, notes, and thoughts.
