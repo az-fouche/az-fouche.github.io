@@ -25,7 +25,7 @@
 
 .u-email {
   font-size: 0.65em;
-  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 
 .footnotes {
@@ -63,7 +63,7 @@
     text-align: left;
   }
   .footer-col-right {
-    flex: 1 1 0;
+    flex: 1.4 1 0;
     min-width: 0;
     text-align: right;
   }
