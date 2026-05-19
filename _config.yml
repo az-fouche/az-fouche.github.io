@@ -11,8 +11,8 @@ scholar_url: https://scholar.google.fr/citations?user=Am0OkmkAAAAJ
 
 theme: minima
 header_pages:
-  - resume.md
   - posts.md
+  - resume.md
   - about.md
 
 plugins:
