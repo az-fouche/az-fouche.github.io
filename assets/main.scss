@@ -2,6 +2,44 @@
 ---
 @import "minima";
 
+.site-title:hover {
+  text-decoration: none;
+}
+
+.site-nav {
+  .nav-sep {
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    margin-right: 20px;
+    background-color: $grey-color-light;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+  }
+
+  .nav-icon {
+    .svg-icon {
+      padding-right: 0;
+      fill: $grey-color;
+      vertical-align: middle;
+    }
+
+    &:hover {
+      text-decoration: none;
+      .svg-icon { fill: $text-color; }
+    }
+  }
+
+  @media screen and (max-width: $on-palm) {
+    .nav-sep { display: none; }
+    .nav-icon {
+      display: inline-block;
+      padding: 5px 8px;
+    }
+  }
+}
+
 .post-content h2 {
   font-size: 1.35em;
   font-weight: 500;
