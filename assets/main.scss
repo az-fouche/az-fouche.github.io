@@ -1,9 +1,33 @@
 ---
 ---
+$brand-color:      #c2410c;
+$background-color: #fdfaf5;
+
 @import "minima";
 
-.site-title:hover {
-  text-decoration: none;
+.site-header {
+  border-top-color: $brand-color;
+}
+
+a {
+  &,
+  &:visited {
+    color: $brand-color;
+  }
+  &:hover {
+    color: darken($brand-color, 10%);
+  }
+}
+
+.site-title {
+  &,
+  &:visited {
+    color: $brand-color;
+  }
+  &:hover {
+    text-decoration: none;
+    color: darken($brand-color, 10%);
+  }
 }
 
 .site-nav {
@@ -21,13 +45,13 @@
   .nav-icon {
     .svg-icon {
       padding-right: 0;
-      fill: $grey-color;
+      fill: $brand-color;
       vertical-align: middle;
     }
 
     &:hover {
       text-decoration: none;
-      .svg-icon { fill: $text-color; }
+      .svg-icon { fill: darken($brand-color, 15%); }
     }
   }
 
@@ -89,7 +113,7 @@
 }
 
 .resume-item {
-  border-left: 3px solid $grey-color-light;
+  border-left: 3px solid rgba($brand-color, 0.35);
   padding-left: 1em;
   margin-bottom: 1.5em;
 
