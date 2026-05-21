@@ -64,6 +64,38 @@ a {
   }
 }
 
+.post-share {
+  margin-top: $spacing-unit;
+  padding-bottom: $spacing-unit / 2;
+  border-bottom: 1px solid $grey-color-light;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  font-size: 1.1em;
+
+  .post-share-label {
+    color: $grey-color;
+    margin-right: 0.3em;
+  }
+
+  .post-share-link {
+    line-height: 0;
+
+    .svg-icon {
+      width: 22px;
+      height: 22px;
+      padding-right: 0;
+      fill: $brand-color;
+      vertical-align: middle;
+    }
+
+    &:hover {
+      text-decoration: none;
+      .svg-icon { fill: darken($brand-color, 15%); }
+    }
+  }
+}
+
 .post-content h2 {
   font-size: 1.35em;
   font-weight: 500;
