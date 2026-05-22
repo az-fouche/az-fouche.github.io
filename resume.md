@@ -12,7 +12,7 @@ permalink: /resume/
 ### AI Research Scientist --- Scienta Lab
 *May 2024 -- June 2026 · Paris, France*
 
-- Development of multimodal foundation models of biological data (tabular and image).
+- Development of foundation models of biological data (unimodal and multimodal, transcriptomics and image).
 - Research on novel architectures, pre-training targets, and aligned benchmark tasks.
 - Scientific project organization, intern mentorship, hiring, communication.
 </div>
@@ -61,7 +61,7 @@ permalink: /resume/
 ## Skills
 
 <div class="resume-item" markdown="1">
-### Building foundation models, end to end
+### Conceiving foundation models
 - Data representation, architecture, pretraining objective, and figuring out which lever to pull when the model isn't learning or is learning the wrong thing (arguably worse).
 </div>
 
